@@ -1,24 +1,9 @@
-# marvelheroes
+TESTE PARA A VAGA ESTÁGIO DE DESENVOLVIMENTO FRONT END.
 
-## Project setup
-```
-npm install
-```
+Vinicius do Amaral Fonseca Filho
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Resultado Esperado
+![video.gif](assets/videos/video.gif)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Meu Resultado
+![video.gif](assets/videos/resultado.gif)

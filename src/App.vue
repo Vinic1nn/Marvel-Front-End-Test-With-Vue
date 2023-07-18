@@ -2,20 +2,23 @@
   <div id="app">
     <app-header />
     <app-selectionBar @hero-selected="updateSelectedHero" />
-    <app-main :selected-hero="selectedHero" />
+    <app-menu :selected-hero="selectedHero" />
+    <app-footer/>
   </div>
 </template>
 
 <script>
-import header from "./components/header.vue";
+import header from "./components/appHeader.vue";
 import selectionBar from "./components/selectionBar.vue";
-import menu from "./components/menu.vue";
+import menu from "./components/appMenu.vue";
+import footer from "./components/appFooter.vue"
 
 export default {
   components: {
     "app-header": header,
     "app-selectionBar": selectionBar,
-    "app-main": menu,
+    "app-menu": menu,
+    "app-footer": footer 
   },
   data() {
     return {
@@ -34,7 +37,6 @@ export default {
 html {
   background-color: #101010;
   color: #fff;
-  background-color: black;
   font-family: "Oswald", "Roboto";
 }
 </style>

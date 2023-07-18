@@ -93,7 +93,7 @@
 export default {
   data() {
     return {
-      redNow: null,
+      redNow: "hulkSpan",
       anotherVisible: false,
       visibleNow: null,
     };
@@ -112,7 +112,7 @@ export default {
       this.$emit("hero-selected", hero);
     },
   },
-}
+};
 </script>
     
     <style>
